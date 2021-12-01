@@ -1,0 +1,54 @@
+.customer {
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.customer_head {
+  font-size: 30px;
+}
+.customer_head .highlight {
+  font-weight: bold;
+}
+
+.customer .head2 {
+  font-size: 18px;
+  color: grey;
+}
+
+.customer .customer_card {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+}
+.customer .customer_card .card1 {
+  margin: 0 40px;
+}
+.customer .customer_card .card1 p {
+  border: 2px solid rgb(20, 218, 79);
+  border-radius: 15px;
+  padding: 40px 0;
+}
+.customer_names img {
+  margin-top: 20px;
+  height: 70px;
+  width: 70px;
+}
+
+.customer_names span {
+  color: grey;
+  margin-top: -30px;
+}
+.customer_names .stars {
+  display: flex;
+  flex-direction: row;
+  margin-left: 115px;
+}
+.stars img {
+  height: 15px;
+  width: 16px;
+}

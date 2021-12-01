@@ -1,0 +1,71 @@
+.audience {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+.audience_words {
+  width: 600px;
+  margin-right: 30px;
+}
+
+.adaptive_head {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.adaptive_head .highlight {
+  font-weight: bold;
+}
+
+.adaptive_head2 {
+  font-size: 20px;
+  color: rgb(119, 120, 121);
+}
+
+.audience_icons {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.audience_icons .icon1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.audience_icons .icon1 img {
+  height: 30px;
+  width: 30px;
+}
+.audience_icons .icon1 .icons_words {
+  margin: -20px 20px 0 10px;
+}
+.audience_icons .icon1 .icons_words h4 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.audience_icons .icon1 .icons_words p {
+  margin-top: -15px;
+  color: rgb(119, 120, 121);
+}
+
+.audience_words .buttons button {
+  padding: 18px 45px;
+  background-color: rgb(81, 192, 59);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.audience_vdo video {
+  width: 500px;
+  height: 500px;
+}

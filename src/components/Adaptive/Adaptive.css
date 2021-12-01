@@ -1,4 +1,34 @@
 .adaptive {
   height: 600px;
   text-align: center;
+  padding: 60px 40px;
+}
+.adaptive .adaptive_head {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.adaptive .adaptive_head .highlight {
+  font-weight: bold;
+}
+
+.hr {
+  margin-top: 150px;
+}
+
+.adaptive_lists {
+  display: flex;
+  flex-direction: row;
+}
+
+.adaptive_lists > div {
+  margin: 100px 40px;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(15, 252, 66, 0.274);
+  padding: 15px;
+  border-radius: 50%;
 }

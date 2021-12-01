@@ -1,0 +1,77 @@
+.footer {
+  min-height: 600px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.sponsers {
+  height: 180px;
+  background-color: rgb(31, 211, 76);
+
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 90px 100px 0;
+}
+.sponsers img {
+  height: 80px;
+  width: 80px;
+}
+
+.secondpara {
+  height: 260px;
+  background: linear-gradient(6deg, rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.719)),
+    url(../Images/2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -20px;
+  padding: 100px 180px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+}
+.footer_head1 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+.footer_head1 .highlight {
+  font-weight: bold;
+}
+.footer_head2 {
+  color: rgb(211, 210, 210);
+  font-size: 18px;
+}
+.footer_buttons {
+  margin: 40px 0 0 160px;
+}
+.footer_buttons button {
+  padding: 18px 45px;
+  background-color: rgb(81, 192, 59);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin: 20px 0 14px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer_buttons p {
+  font-size: 13px;
+  color: rgb(211, 210, 210);
+  margin-left: 20px;
+}
+
+.thirdpara {
+  height: 80px;
+  padding: 50px 40px 0;
+}
+.thirdpara .social_icons {
+  float: right;
+  margin-top: -40px;
+}
+.thirdpara .social_icons img {
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+}
